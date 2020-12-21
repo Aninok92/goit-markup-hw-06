@@ -632,7 +632,7 @@ img {
   position: absolute;
   top: 8px;
   right: 8px;
-   display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 30px;
@@ -665,8 +665,6 @@ img {
 .form {
   display: flex;
   flex-direction: column;
-
-
   padding: 40px;
 }
 
@@ -684,9 +682,8 @@ img {
 }
 
 .form-label {
-  
-  display: block;
-  margin-bottom: 4px;
+ display: block;
+ margin-bottom: 4px;
  font-weight: 400;
  font-size: 12px;
  line-height: 1.166;
@@ -696,8 +693,7 @@ img {
 }
 
 .form-imput {
-  display: block;
- 
+ display: block;
  height: 40px;
  padding-left: 42px;
 }
@@ -728,8 +724,6 @@ img {
   bottom: 11px;
   left: 12px;
 
-  
-
   transition: fill var(--transition-duration)
   var(--transition-timing-function);
 }
@@ -747,8 +741,11 @@ img {
   
 } 
 
+.comment-form-field {
+  margin-bottom:20px;
+}
+
 .policy-form-field {
-  margin-top:20px;
   margin-bottom: 30px;
 }
 
@@ -760,15 +757,13 @@ img {
   font-size: 14px;
   line-height: 1.714;
   cursor: pointer;
-
-  
 }
 
 .form-policy-link {
   color: var(--accent-color);
   font-weight: normal;
   font-size: 14px;
-   line-height: 1.714;
+  line-height: 1.714;
 }
 
 .form--policy-text::before {
